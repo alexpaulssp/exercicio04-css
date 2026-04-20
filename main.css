@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+/* --- CORES NOVAS AQUI NO FINAL --- */
+
+.secao-entretenimento h2 {
+    color: #e67e22; /* Cor laranja para o título de entretenimento */
+}
+
+.secao-tecnologia h2 {
+    color: #9b59b6; /* Cor roxa para o título de tecnologia */
+}
+
